@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "clean": "rm -rf node_modules",
-    "run":"node app"
+    "start": "node app"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "homepage": "https://github.com/lightspeed1001/hugb_lab#readme",
   "dependencies": {
     "jest": "^23.6.0"
+  },
+  "devDependencies": {
+    "express": "^4.16.3",
+    "supertest": "^3.3.0"
   }
 }
